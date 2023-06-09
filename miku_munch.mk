@@ -8,19 +8,22 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common miku stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-DEVICE_MAINTAINER := madmax7896
+# Inherit some face unlock stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
-PRODUCT_NAME := arrow_munch
+MIKU_MASTER := MZRME
+
+PRODUCT_NAME := miku_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO F4
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K40S
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
