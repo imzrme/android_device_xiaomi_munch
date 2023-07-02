@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common miku stuff.
-$(call inherit-product, vendor/miku/build/product/miku_product.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
@@ -18,10 +18,11 @@ $(call inherit-product, device/xiaomi/munch/device.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_GAPPS_ARCH := arm64
 
-MIKU_MASTER := MZRME
+DEVICE_MAINTAINER := MZRME
 
-PRODUCT_NAME := miku_munch
+PRODUCT_NAME := derp_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/miku_munch.mk
+    $(LOCAL_DIR)/derp_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    miku_munch-user \
-    miku_munch-userdebug \
-    miku_munch-eng
+    derp_munch-user \
+    derp_munch-userdebug \
+    derp_munch-eng
