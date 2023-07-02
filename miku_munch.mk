@@ -14,8 +14,10 @@ $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-# Inherit some face unlock stuff
+# Inherit some stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 MIKU_MASTER := MZRME
 
