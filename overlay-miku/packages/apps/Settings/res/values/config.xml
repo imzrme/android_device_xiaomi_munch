@@ -30,4 +30,7 @@
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
+    <!-- Display additional System Update menu if true -->
+    <bool name="config_additional_system_update_setting_enable">false</bool>
+
 </resources>
