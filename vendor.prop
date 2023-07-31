@@ -62,3 +62,15 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=1000
 ro.surface_flinger.set_touch_timer_ms=1000
+
+# Graphics (Adreno)
+vendor/lib/0640_libadreno_utils.so
+vendor/lib/0640_libgsl.so
+vendor/lib/0640_libllvm-glnext.so
+vendor/lib/libdmabufheap.so
+vendor/lib/libllvm-qgl.so
+vendor/lib64/0640_libadreno_utils.so
+vendor/lib64/0640_libgsl.so
+vendor/lib64/0640_libllvm-glnext.so
+vendor/lib64/libdmabufheap.so
+vendor/lib64/libllvm-qgl.so
