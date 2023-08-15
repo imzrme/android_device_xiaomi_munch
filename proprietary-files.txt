@@ -475,6 +475,10 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
+# GPU
+vendor/lib/libadreno_app_profiles.so
+vendor/lib64/libadreno_app_profiles.so
+
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
@@ -654,3 +658,15 @@ vendor/firmware/5_heavyClick_P_RTP.bin
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_rtp_1.bin
+
+# Graphics (Adreno)
+vendor/lib/0640_libadreno_utils.so
+vendor/lib/0640_libgsl.so
+vendor/lib/0640_libllvm-glnext.so
+vendor/lib/libdmabufheap.so
+vendor/lib/libllvm-qgl.so
+vendor/lib64/0640_libadreno_utils.so
+vendor/lib64/0640_libgsl.so
+vendor/lib64/0640_libllvm-glnext.so
+vendor/lib64/libdmabufheap.so
+vendor/lib64/libllvm-qgl.so
